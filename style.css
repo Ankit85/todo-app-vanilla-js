@@ -1,0 +1,125 @@
+body {
+  /* background-color: aqua; */
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: "Bai Jamjuree", sans-serif;
+  accent-color: black;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, */
+  /* Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+.input-container {
+  margin: 0.5rem;
+  width: 20rem;
+  display: flex;
+}
+
+input {
+  outline: none;
+  border-color: rgb(138, 128, 128);
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: black;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+input:focus {
+  border-color: #fff;
+  border-radius: 0.5rem;
+}
+
+.add-btn {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 0.5rem;
+}
+
+.add-btn:hover {
+  background-color: black;
+  color: #fff;
+  border-color: #fff;
+}
+
+.items-list-container {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 19rem;
+  margin-top: 0.7rem;
+  padding: 0.2rem;
+  background-color: rgb(39, 38, 38);
+  /* background-color: black; */
+  /* background-color: red; */
+  border-radius: 1rem;
+  align-items: center;
+}
+
+.checkbox {
+  width: -moz-fit-content;
+  margin-left: 1rem;
+  width: fit-content;
+}
+input[type="checkbox"] {
+  -ms-transform: scale(1.25); /* IE */
+  -moz-transform: sscale(1.25); /* FF */
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+  -o-transform: scale(1.25); /* Opera */
+  transform: scale(1.25);
+  /* padding: 1rem; */
+}
+
+.todoHeading {
+  margin: 0.2rem;
+}
+
+.delete-btn {
+  align-items: center;
+  justify-items: center;
+  background-color: red;
+  color: #fff;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.delete-btn:hover {
+  background-color: black;
+  color: #fff;
+  border-color: #fff;
+}
